@@ -30,7 +30,7 @@ mainmenu() {
   sleep 3
   menu
  elif [ $pil == "2" ];then
-echo -e "[!] keluar"
+echo -e " AING GABUT WKWK"
 exit
 else
 echo -e "[!] input salah"
