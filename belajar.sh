@@ -25,12 +25,12 @@ kuningmuda="\033[33m"
 mainmenu() {
   echo -e -n "pilih >";read pil
   if [ $pil == "1" ];then
-  pkg install python2 -y /dev//null
+  pkg install python2 -y &> /dev//null
   echo -e "[+] python berhasil di install"
   sleep 3
   menu
  elif [ $pil == "2" ];then
-echo -e " AING GABUT WKWK"
+echo -e "[!] keluar"
 exit
 else
 echo -e "[!] input salah"
