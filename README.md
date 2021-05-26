@@ -25,6 +25,7 @@
 > pkg upgrade && pkg update
 > pkg install figlet
 > pkg install bash
+> pkg install git
 ```
 
 ### Usage
